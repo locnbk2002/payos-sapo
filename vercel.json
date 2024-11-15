@@ -1,23 +1,17 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "public/index.php",
-            "use": "@vercel/php"
-        },
-        {
-            "src": "public/checkout.php",
-            "use": "@vercel/php"
+    "functions": {
+        "public/*.php": {
+            "runtime": "vercel-php@0.7.3"
         }
-    ],
+    },
     "routes": [
+        {
+            "src": "/checkout.php",
+            "dest": "/public/checkout.php"
+        },
         {
             "src": "/(.*)",
             "dest": "/public/index.php"
-        },
-        {
-            "src": "/checkout",
-            "dest": "/public/checkout.php"
         }
     ]
 }
