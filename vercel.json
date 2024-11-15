@@ -1,24 +1,17 @@
 {
     "functions": {
-        "public/*.php": {
-            "runtime": "vercel-php@0.7.3"
-        },
         "api/*.php": {
             "runtime": "vercel-php@0.7.3"
         }
     },
     "routes": [
         {
-            "src": "/checkout.php",
-            "dest": "/public/checkout.php"
-        },
-        {
             "src": "/api/checkout.php",
             "dest": "/api/checkout.php"
         },
         {
-            "src": "/api/checkout.js",
-            "dest": "/api/checkout.js"
+            "src": "/api/checkout-js.js",
+            "dest": "/api/checkout-js.js"
         },
         {
             "src": "/(.*)",
