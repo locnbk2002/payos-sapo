@@ -19,12 +19,12 @@
         }
     ],
     "env": {
-        "PAYOS_API_KEY": "@payos_api_key",
-        "PAYOS_CLIENT_ID": "@payos_client_id",
-        "PAYOS_CHECKSUM_KEY": "@payos_checksum_key",
-        "SAPO_API_KEY": "@sapo_api_key",
-        "SAPO_API_SECRET": "@sapo_api_secret",
-        "SAPO_HOST_NAME": "@sapo_host_name",
-        "CHECKOUT_URL_HOST": "@checkout_url_host"
+        "PAYOS_API_KEY": "@PAYOS_API_KEY",
+        "PAYOS_CLIENT_ID": "@PAYOS_CLIENT_ID",
+        "PAYOS_CHECKSUM_KEY": "@PAYOS_CHECKSUM_KEY",
+        "SAPO_API_KEY": "@SAPO_API_KEY",
+        "SAPO_API_SECRET": "@SAPO_API_SECRET",
+        "SAPO_HOST_NAME": "@SAPO_HOST_NAME",
+        "CHECKOUT_URL_HOST": "@CHECKOUT_URL_HOST"
     }
 }
