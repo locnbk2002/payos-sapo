@@ -17,5 +17,14 @@
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
-    ]
+    ],
+    "env": {
+        "PAYOS_API_KEY": "@payos_api_key",
+        "PAYOS_CLIENT_ID": "@payos_client_id",
+        "PAYOS_CHECKSUM_KEY": "@payos_checksum_key",
+        "SAPO_API_KEY": "@sapo_api_key",
+        "SAPO_API_SECRET": "@sapo_api_secret",
+        "SAPO_HOST_NAME": "@sapo_host_name",
+        "CHECKOUT_URL_HOST": "@checkout_url_host"
+    }
 }
